@@ -1,0 +1,219 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:card
+LIBS:Logger-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C C10
+U 1 1 5A289229
+P 7800 3350
+F 0 "C10" H 7825 3450 50  0000 L CNN
+F 1 "1µ" H 7825 3250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7838 3200 50  0001 C CNN
+F 3 "" H 7800 3350 50  0000 C CNN
+	1    7800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 5A289230
+P 6600 3350
+F 0 "C9" H 6625 3450 50  0000 L CNN
+F 1 "2µ2" H 6625 3250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6638 3200 50  0001 C CNN
+F 3 "" H 6600 3350 50  0000 C CNN
+	1    6600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR25
+U 1 1 5A289237
+P 7200 3600
+F 0 "#PWR25" H 7200 3350 50  0001 C CNN
+F 1 "GND" H 7200 3450 50  0000 C CNN
+F 2 "" H 7200 3600 50  0000 C CNN
+F 3 "" H 7200 3600 50  0000 C CNN
+	1    7200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR27
+U 1 1 5A28923D
+P 7800 3600
+F 0 "#PWR27" H 7800 3350 50  0001 C CNN
+F 1 "GND" H 7800 3450 50  0000 C CNN
+F 2 "" H 7800 3600 50  0000 C CNN
+F 3 "" H 7800 3600 50  0000 C CNN
+	1    7800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR26
+U 1 1 5A289243
+P 7800 2900
+F 0 "#PWR26" H 7800 2750 50  0001 C CNN
+F 1 "+3V3" H 7800 3040 50  0000 C CNN
+F 2 "" H 7800 2900 50  0000 C CNN
+F 3 "" H 7800 2900 50  0000 C CNN
+	1    7800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR23
+U 1 1 5A289249
+P 6600 2900
+F 0 "#PWR23" H 6600 2750 50  0001 C CNN
+F 1 "VCC" H 6600 3050 50  0000 C CNN
+F 2 "" H 6600 2900 50  0000 C CNN
+F 3 "" H 6600 2900 50  0000 C CNN
+	1    6600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_BRIDGE D2
+U 1 1 5A28924F
+P 5000 3200
+F 0 "D2" H 5300 3500 50  0000 L CNN
+F 1 "D_BRIDGE" H 5300 3400 50  0000 L CNN
+F 2 "" H 5000 3200 50  0001 C CNN
+F 3 "" H 5000 3200 50  0000 C CNN
+	1    5000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 5A289256
+P 3900 3200
+F 0 "P4" H 3900 3350 50  0000 C CNN
+F 1 "Vin" V 4000 3200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3900 3200 50  0001 C CNN
+F 3 "" H 3900 3200 50  0000 C CNN
+	1    3900 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR21
+U 1 1 5A28925D
+P 4500 3400
+F 0 "#PWR21" H 4500 3150 50  0001 C CNN
+F 1 "GND" H 4500 3250 50  0000 C CNN
+F 2 "" H 4500 3400 50  0000 C CNN
+F 3 "" H 4500 3400 50  0000 C CNN
+	1    4500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR22
+U 1 1 5A289263
+P 5800 2900
+F 0 "#PWR22" H 5800 2750 50  0001 C CNN
+F 1 "VCC" H 5800 3050 50  0000 C CNN
+F 2 "" H 5800 2900 50  0000 C CNN
+F 3 "" H 5800 2900 50  0000 C CNN
+	1    5800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM78M05CT U1
+U 1 1 5A289269
+P 7200 3150
+F 0 "U1" H 7000 3350 50  0000 C CNN
+F 1 "78M33C" H 7200 3350 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2Lead" H 7200 3250 50  0001 C CIN
+F 3 "" H 7200 3150 50  0000 C CNN
+	1    7200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR24
+U 1 1 5A289270
+P 6600 3600
+F 0 "#PWR24" H 6600 3350 50  0001 C CNN
+F 1 "GND" H 6600 3450 50  0000 C CNN
+F 2 "" H 6600 3600 50  0000 C CNN
+F 3 "" H 6600 3600 50  0000 C CNN
+	1    6600 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3200 5800 3200
+Wire Wire Line
+	4500 3200 4600 3200
+Wire Wire Line
+	5000 3600 5000 3700
+Wire Wire Line
+	5000 3700 4200 3700
+Wire Wire Line
+	4200 3700 4200 3250
+Wire Wire Line
+	5000 2800 5000 2700
+Wire Wire Line
+	5000 2700 4200 2700
+Wire Wire Line
+	4200 2700 4200 3150
+Wire Wire Line
+	4500 3400 4500 3200
+Wire Wire Line
+	5800 3200 5800 2900
+Wire Wire Line
+	4200 3250 4100 3250
+Wire Wire Line
+	4200 3150 4100 3150
+Wire Wire Line
+	7800 2900 7800 3200
+Wire Wire Line
+	7800 3100 7600 3100
+Wire Wire Line
+	6600 2900 6600 3200
+Wire Wire Line
+	6600 3100 6800 3100
+Wire Wire Line
+	6600 3500 6600 3600
+Wire Wire Line
+	7200 3400 7200 3600
+Wire Wire Line
+	7800 3500 7800 3600
+Connection ~ 6600 3100
+Connection ~ 7800 3100
+$EndSCHEMATC
