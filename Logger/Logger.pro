@@ -1,4 +1,4 @@
-update=Mo 11 Dez 2017 21:24:37 CET
+update=Sa 23 Dez 2017 11:08:15 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=page_layout.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=100
 [eeschema]
 version=1
 LibDir=/home/jonas/KiCad/library
@@ -70,3 +60,13 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=card
+[schematic_editor]
+version=1
+PageLayoutDescrFile=page_layout.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=50
