@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "D0-SD-Logger"
-Date "2017-12-23"
-Rev "B"
+Date "2018-01-07"
+Rev "C"
 Comp "Jonas Gappert"
 Comment1 ""
 Comment2 ""
@@ -51,7 +51,7 @@ U 1 1 5A289229
 P 7800 3350
 F 0 "C10" H 7825 3450 50  0000 L CNN
 F 1 "1µ" H 7825 3250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7838 3200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7838 3200 50  0001 C CNN
 F 3 "" H 7800 3350 50  0000 C CNN
 	1    7800 3350
 	1    0    0    -1  
@@ -62,7 +62,7 @@ U 1 1 5A289230
 P 6600 3350
 F 0 "C9" H 6625 3450 50  0000 L CNN
 F 1 "2µ2" H 6625 3250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6638 3200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6638 3200 50  0001 C CNN
 F 3 "" H 6600 3350 50  0000 C CNN
 	1    6600 3350
 	1    0    0    -1  
