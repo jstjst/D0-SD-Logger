@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "D0-SD-Logger"
-Date "2018-01-07"
-Rev "C"
+Date "2018-01-19"
+Rev "D"
 Comp "Jonas Gappert"
 Comment1 ""
 Comment2 ""

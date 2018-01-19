@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "D0-SD-Logger"
-Date "2018-01-07"
-Rev "C"
+Date "2018-01-19"
+Rev "D"
 Comp "Jonas Gappert"
 Comment1 ""
 Comment2 ""
@@ -112,7 +112,7 @@ F 3 "" H 6600 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_BRIDGE D2
+L D_BRIDGE_2 D2
 U 1 1 5A28924F
 P 5000 3200
 F 0 "D2" H 5300 3500 50  0000 L CNN
